@@ -1,0 +1,104 @@
+*{
+    padding:0
+}
+/*===============
+    Header Start 
+ ================*/
+ header{
+    margin: 50px 200px;
+    /* background-color: #FFF4E7; */
+ }
+ .header-title h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ nav ul{
+    display: flex;
+ }
+ nav li{
+    list-style: none;
+    margin-left: 30px;
+ }
+ li a{
+    text-decoration: none;
+    color:black;
+ }
+ /* =====================
+        Header end
+ ======================== */
+ /*=========================== 
+        Banner style start
+ ============================= */
+ .banner-area{
+    margin: 100px 200px;
+ }
+ .banner-title{
+    text-align: center;
+ }
+ .banner-title h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+ }
+ .banner-title p{
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: ;
+    
+ }
+ .btn-more{
+    background-color:darkorange;
+    padding:15px 30px;
+    border-radius: 5px;
+    color:white;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .banner-img img{
+   width: 100%;
+   margin-top: 30px;
+  
+ }
+  /*=========================== 
+        Banner style End
+ ============================= */
+/* ============================
+         Features style Start
+   ============================= */
+.features-area{
+ display: flex;
+ align-items: center;
+ gap:50px;
+ margin: 50px 200px;
+}
+.features-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+.features-item img{
+    width: 100%;
+}
+.features-info h1{
+    color:darkgray;
+    font-size: 30px;
+    font-weight: 700;
+}
+.features-info span{
+    color:black;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.features-info h2{
+    color:darkorange;
+    font-size: 30px;
+    font-weight: 700;
+}
