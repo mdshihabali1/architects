@@ -186,7 +186,36 @@
   font-size: 24px;
    
 }
-.facts-item img{
-  
-   
+.sponspors {
+    margin: 50px 200px;
+}
+.sponspors h1 {
+   font-size:30px;
+   font-weight: 700;
+   text-align: center;
+}
+.sponspors p {
+   font-size:16px;
+   font-weight: 400;
+   text-align: center;
+}
+.our-title{
+    display: flex;
+    margin: 50px 200px;
+    justify-content: space-around;
+    gap:20px;
+}
+/* ================================foote style start============================================= */
+.footer-area{
+    text-align: center;
+    background-color: darksalmon;
+    margin: 50px 200px;
+    
+}
+.footer-area h3{
+    color:white;
+    font-size: 20px;
+    padding:15px 30px;
+
+    
 }
