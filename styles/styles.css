@@ -8,6 +8,17 @@
     margin: 50px 200px;
     /* background-color: #FFF4E7; */
  }
+ #check{
+    display: none;
+ }
+ .check-btn{
+    font-size: 30px;
+    float: left;
+    color:white;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+ }
  .header-title h1{
     font-size: 30px;
     font-weight: 700;
@@ -217,5 +228,60 @@
     font-size: 20px;
     padding:15px 30px;
 
+    
+}
+
+@media only screen and (max-width:576px) {
+    header{
+        justify-content: space-around;
+        margin: 10px 20px;
+    }
+    nav .header-title {
+        font-size: 20px;
+        padding:0;
+        
+    }
+    .features-area{
+        display: grid;
+        grid-template-columns: repeat(1);
+        margin: 10px 30px;
+        
+    }
+    .features-item {
+        display: grid;
+        grid-template-columns:repeat(1, 1fr)
+        margin: 10px 30px;
+        flex-direction:column-reverse;
+    }
+    
+    .facts-area{
+       display: grid;
+       grid-template-columns: repeat(1);
+       margin: 10px 20px;
+       
+    }
+    .facts-title{
+        display: grid;
+        grid-template-columns: repeat(1);
+    }
+    .enjoy-area{
+        display: grid;
+        grid-template-columns: repeat(1);
+        margin:10px 30px;
+    }
+    .footer-area{
+        margin: 10px 30px;
+    }
+    .banner-area{
+        margin: 10px 30px;
+    }
+    .our-title{
+        display: grid;
+       grid-template-columns: repeat(1);
+       margin: 10px 20px;
+    }
+    .sponspors{
+        margin: 10px 20px;
+    }
     
 }
